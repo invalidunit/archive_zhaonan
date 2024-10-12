@@ -28,6 +28,15 @@ jobs:
       - name: Find updates and download them
         run: |
           aptb 'https://invalidunit.github.io/repo/'
+
+      - name: Refresh Packages
+        if: success()
+        run: |
+          rm -rf ./Packages*
+          dpkg-scanpackages -m ./debs /dev/null >./Packages
+          bzip2 -v -k -9 Packages
+          xz -v -k -9 --extreme Packages
+          zstd --ultra -22 -k Packages -o Packages.zst
           
       - name: save caches if local change
         if: success()
