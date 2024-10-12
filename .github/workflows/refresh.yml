@@ -1,0 +1,54 @@
+name: "refresh"
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '10 * * * *'
+    - cron: '40 * * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+
+      - name: install depends
+        run: |
+          sudo apt update >>/dev/null
+          sudo apt install bzip2 curl dpkg-dev findutils gawk gzip sed xz-utils zstd -y
+          
+      - name: download aptb
+        run: |
+          sudo curl -L -o '/usr/bin/aptb' 'https://raw.githubusercontent.com/invalidunit/action/main/aptb'
+          sudo chmod -R 0755 '/usr/bin/aptb'
+          
+      - name: Find updates and download them
+        run: |
+          aptb 'https://invalidunit.github.io/repo/'
+          
+      - name: save caches if local change
+        if: success()
+        run: |
+          git config --global user.email 'action@github.com'
+          git config --global user.name 'GitHub Action'
+          git add .
+          if ! git diff --staged --exit-code 1>>/dev/null; then
+            git commit -m 'save caches'
+            git push
+          fi
+          
+      - name: download remove_all_actions
+        run: |
+          sudo curl -L -o '/usr/bin/remove_all_actions' 'https://raw.githubusercontent.com/invalidunit/action/main/remove_all_actions'
+          sudo chmod -R 0755 '/usr/bin/remove_all_actions'
+
+      - name: remove all old actions
+        if: success()
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          remove_all_actions
