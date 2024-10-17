@@ -321,6 +321,57 @@ Icon: https://invalidunit.github.io/sileodepiction/com.nan.bark/image.png
 Name: bark
 Sileodepiction: https://invalidunit.github.io/sileodepiction/com.nan.bark/js.json
 
+Package: com.nan.bark
+Version: 0.2.8
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: coreutils, sed, shell-cmds, jq, jo, openssl, xxd, curl
+Filename: ./debs/iphoneos-arm/com.nan.bark_0.2.8_iphoneos-arm_c64ce611f2110e0ada67765aed04e2d5b82df65dc9a80cffe1ec0bcb448dae20.deb
+Size: 3900
+MD5sum: 1b01f7fb6575c2a21ea76018f375f34c
+SHA1: 656b496dca354384167a09673ba3b75991de7639
+SHA256: c64ce611f2110e0ada67765aed04e2d5b82df65dc9a80cffe1ec0bcb448dae20
+Section: Terminal_Support
+Description: 用于向 bark 服务器推送自定义消息的 cli 脚本
+Author: zhaonan <invalidunit@icloud.com>
+Icon: https://invalidunit.github.io/sileodepiction/com.nan.bark/image.png
+Name: bark
+Sileodepiction: https://invalidunit.github.io/sileodepiction/com.nan.bark/js.json
+
+Package: com.nan.bark
+Version: 0.2.8
+Architecture: iphoneos-arm64e
+Maintainer: zhaonan
+Depends: coreutils, sed, shell-cmds, jq, jo, openssl, xxd, curl
+Filename: ./debs/iphoneos-arm64e/com.nan.bark_0.2.8_iphoneos-arm64e_b1d70e578c28bf0ed5a8256bab9fad99907bd3cdff67755d8b00b85d6574d712.deb
+Size: 3904
+MD5sum: f0622cf8bd79858d0e89917ca0a019c4
+SHA1: b96723bd12f822e73786d94d55f65d3a34a10f4b
+SHA256: b1d70e578c28bf0ed5a8256bab9fad99907bd3cdff67755d8b00b85d6574d712
+Section: Terminal_Support
+Description: 用于向 bark 服务器推送自定义消息的 cli 脚本
+Author: zhaonan <invalidunit@icloud.com>
+Icon: https://invalidunit.github.io/sileodepiction/com.nan.bark/image.png
+Name: bark
+Sileodepiction: https://invalidunit.github.io/sileodepiction/com.nan.bark/js.json
+
+Package: com.nan.bark
+Version: 0.2.8
+Architecture: iphoneos-arm64
+Maintainer: zhaonan
+Depends: coreutils, sed, shell-cmds, jq, jo, openssl, xxd, curl
+Filename: ./debs/iphoneos-arm64/com.nan.bark_0.2.8_iphoneos-arm64_b44645dafdbbbdd43025c1448f895f56e25c3cb72addeffe95cbd0149a646629.deb
+Size: 3932
+MD5sum: 216a5bb3624aff71f87015dfdb058fdd
+SHA1: 9f354233c17c307dda4925589a233b0c93a1636a
+SHA256: b44645dafdbbbdd43025c1448f895f56e25c3cb72addeffe95cbd0149a646629
+Section: Terminal_Support
+Description: 用于向 bark 服务器推送自定义消息的 cli 脚本
+Author: zhaonan <invalidunit@icloud.com>
+Icon: https://invalidunit.github.io/sileodepiction/com.nan.bark/image.png
+Name: bark
+Sileodepiction: https://invalidunit.github.io/sileodepiction/com.nan.bark/js.json
+
 Package: com.nan.bindfs
 Version: 0.3.2
 Architecture: iphoneos-arm64
@@ -1850,6 +1901,57 @@ Size: 2212
 MD5sum: 628a616d74d8027c181639f52c3f79b2
 SHA1: af2bcaa9084ab461244da01d45abbf468ec74bfb
 SHA256: 0afc6a9ea36edd61d8d74c919be8012dba42daf7a0943d68629e0aa59acdfbed
+Section: Addons
+Description: 尝试保存 apt 缓存目录下所有 deb
+Author: zhaonan <invalidunit@icloud.com>
+Icon: https://invalidunit.github.io/sileodepiction/Default/image_fix.png
+Name: Give me deb
+Sileodepiction: https://invalidunit.github.io/sileodepiction/com.nan.givemedeb/js.json
+
+Package: com.nan.givemedeb
+Version: 0.3.1
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: coreutils, sed, gawk
+Filename: ./debs/iphoneos-arm/com.nan.givemedeb_0.3.1_iphoneos-arm_fef041676577bfbd4d4e7c5084dbf27b4092e8720a8b9c3a799a69cd0f6ee513.deb
+Size: 2200
+MD5sum: 34b20377776ab038f30eefbbc7f26ad9
+SHA1: 3f85518c31189a58b6bd79a543d544a6eee9e39b
+SHA256: fef041676577bfbd4d4e7c5084dbf27b4092e8720a8b9c3a799a69cd0f6ee513
+Section: Addons
+Description: 尝试保存 apt 缓存目录下所有 deb
+Author: zhaonan <invalidunit@icloud.com>
+Icon: https://invalidunit.github.io/sileodepiction/Default/image_fix.png
+Name: Give me deb
+Sileodepiction: https://invalidunit.github.io/sileodepiction/com.nan.givemedeb/js.json
+
+Package: com.nan.givemedeb
+Version: 0.3.1
+Architecture: iphoneos-arm64e
+Maintainer: zhaonan
+Depends: coreutils, sed, gawk
+Filename: ./debs/iphoneos-arm64e/com.nan.givemedeb_0.3.1_iphoneos-arm64e_897e6a0b7b99e37f848dc68d7737fa07a07aae5ecd6fd577a66e0efd4968aaf0.deb
+Size: 2200
+MD5sum: 43dc07ab1f6f1a8fec76cfceab5edd11
+SHA1: f3436a178a710751f3474b4fada8e28e7569f3bb
+SHA256: 897e6a0b7b99e37f848dc68d7737fa07a07aae5ecd6fd577a66e0efd4968aaf0
+Section: Addons
+Description: 尝试保存 apt 缓存目录下所有 deb
+Author: zhaonan <invalidunit@icloud.com>
+Icon: https://invalidunit.github.io/sileodepiction/Default/image_fix.png
+Name: Give me deb
+Sileodepiction: https://invalidunit.github.io/sileodepiction/com.nan.givemedeb/js.json
+
+Package: com.nan.givemedeb
+Version: 0.3.1
+Architecture: iphoneos-arm64
+Maintainer: zhaonan
+Depends: coreutils, sed, gawk
+Filename: ./debs/iphoneos-arm64/com.nan.givemedeb_0.3.1_iphoneos-arm64_aada23ee1fa1a70fd11ea99b8e4ca19b13c8284f71e46b14d2e869573f38e88f.deb
+Size: 2228
+MD5sum: fa9e17dd7ee653037b52627dd243ff7b
+SHA1: 476f2b824977c64f36e7e124f203fedab46f7d85
+SHA256: aada23ee1fa1a70fd11ea99b8e4ca19b13c8284f71e46b14d2e869573f38e88f
 Section: Addons
 Description: 尝试保存 apt 缓存目录下所有 deb
 Author: zhaonan <invalidunit@icloud.com>
