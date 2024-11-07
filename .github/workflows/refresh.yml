@@ -9,7 +9,7 @@ jobs:
   aptb:
     uses: invalidunit/action/.github/workflows/aptb.yml@main
     with:
-      config-path: https://invalidunit.github.io/repo/
+      _repo: https://invalidunit.github.io/repo/
 
 
   remove_all_old_actions:
