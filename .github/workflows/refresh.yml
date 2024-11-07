@@ -6,47 +6,11 @@ on:
     - cron: '10 * * * *'
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-        with:
-          submodules: recursive
+  aptb:
+    uses: invalidunit/action/.github/workflows/aptb.yml@main
+    with:
+      config-path: https://invalidunit.github.io/repo/
 
-      - name: install depends
-        run: |
-          sudo apt update >>/dev/null
-          sudo apt install bzip2 curl dpkg-dev findutils gawk gzip sed xz-utils zstd -y
-          
-      - name: download aptb
-        run: |
-          sudo curl -L -o '/usr/bin/aptb' 'https://raw.githubusercontent.com/invalidunit/action/main/aptb'
-          sudo chmod -R 0755 '/usr/bin/aptb'
-          
-      - name: Find updates and download them
-        run: |
-          aptb 'https://invalidunit.github.io/repo/'
-
-      - name: Refresh Packages
-        if: success()
-        run: |
-          rm -rf ./Packages*
-          dpkg-scanpackages -m ./debs /dev/null >./Packages
-          bzip2 -v -k -9 Packages
-          xz -v -k -9 --extreme Packages
-          zstd --ultra -22 -k Packages -o Packages.zst
-          
-      - name: save caches if local change
-        if: success()
-        run: |
-          git config --global user.email 'action@github.com'
-          git config --global user.name 'GitHub Action'
-          git add .
-          if ! git diff --staged --exit-code 1>>/dev/null; then
-            git commit -m 'Cache new deb and refresh'
-            git push
-          fi
 
   remove_all_old_actions:
     uses: invalidunit/action/.github/workflows/remove_all_actions.yml@main
