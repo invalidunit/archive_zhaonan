@@ -372,6 +372,57 @@ Icon: https://invalidunit.github.io/sileodepiction/com.nan.bark/image.png
 Name: bark
 Sileodepiction: https://invalidunit.github.io/sileodepiction/com.nan.bark/js.json
 
+Package: com.nan.bark
+Version: 0.2.9
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: coreutils, sed, shell-cmds, jq, jo, openssl, xxd, curl
+Filename: ./debs/iphoneos-arm/com.nan.bark_0.2.9_iphoneos-arm_99b3c269fd0a45145032fb97ad635c27a83c5546f06b914f3cd095d43c4cb769.deb
+Size: 3956
+MD5sum: a4addcdfd52493a00387d1d00b52dfe9
+SHA1: f4ea9a4cf6bc579fa8f127dec84eea10439ad5f4
+SHA256: 99b3c269fd0a45145032fb97ad635c27a83c5546f06b914f3cd095d43c4cb769
+Section: Terminal_Support
+Description: 用于向 bark 服务器推送自定义消息的 cli 脚本
+Author: zhaonan <invalidunit@icloud.com>
+Icon: https://invalidunit.github.io/sileodepiction/com.nan.bark/image.png
+Name: bark
+Sileodepiction: https://invalidunit.github.io/sileodepiction/com.nan.bark/js.json
+
+Package: com.nan.bark
+Version: 0.2.9
+Architecture: iphoneos-arm64e
+Maintainer: zhaonan
+Depends: coreutils, sed, shell-cmds, jq, jo, openssl, xxd, curl
+Filename: ./debs/iphoneos-arm64e/com.nan.bark_0.2.9_iphoneos-arm64e_157bb580c25c9a53aa816e81e02b133bcc3da19ab665afd0d4506f2bcb3bb9a3.deb
+Size: 3960
+MD5sum: 54a79249bfec95d35aed8287ff7c5253
+SHA1: cbfa262c3f3fbc82c23dce04b0128692a453f88c
+SHA256: 157bb580c25c9a53aa816e81e02b133bcc3da19ab665afd0d4506f2bcb3bb9a3
+Section: Terminal_Support
+Description: 用于向 bark 服务器推送自定义消息的 cli 脚本
+Author: zhaonan <invalidunit@icloud.com>
+Icon: https://invalidunit.github.io/sileodepiction/com.nan.bark/image.png
+Name: bark
+Sileodepiction: https://invalidunit.github.io/sileodepiction/com.nan.bark/js.json
+
+Package: com.nan.bark
+Version: 0.2.9
+Architecture: iphoneos-arm64
+Maintainer: zhaonan
+Depends: coreutils, sed, shell-cmds, jq, jo, openssl, xxd, curl
+Filename: ./debs/iphoneos-arm64/com.nan.bark_0.2.9_iphoneos-arm64_d23a2cf5099b2dd17b6d3f277d3031561c7ecdd950d84c29c473ac3780c0a5b8.deb
+Size: 3988
+MD5sum: c96b937eb5eec154641ba60253b5af32
+SHA1: 8c2bcd1d7dc8798e038d395b4760ed5cda0547df
+SHA256: d23a2cf5099b2dd17b6d3f277d3031561c7ecdd950d84c29c473ac3780c0a5b8
+Section: Terminal_Support
+Description: 用于向 bark 服务器推送自定义消息的 cli 脚本
+Author: zhaonan <invalidunit@icloud.com>
+Icon: https://invalidunit.github.io/sileodepiction/com.nan.bark/image.png
+Name: bark
+Sileodepiction: https://invalidunit.github.io/sileodepiction/com.nan.bark/js.json
+
 Package: com.nan.bindfs
 Version: 0.3.2
 Architecture: iphoneos-arm64
