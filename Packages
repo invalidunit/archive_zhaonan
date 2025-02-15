@@ -2337,6 +2337,23 @@ Icon: https://invalidunit.github.io/sileodepiction/Default/image_fix.png
 Name: Hardware Switch As Orientation Lock
 Sileodepiction: https://invalidunit.github.io/sileodepiction/com.nan.hsaol/js.json
 
+Package: com.nan.irld
+Version: 0.1.0
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: coreutils, sed, ncurses-bin
+Filename: ./debs/iphoneos-arm/com.nan.irld_0.1.0_iphoneos-arm_f3fa9d11989747c5820aeca092026e3f8abc7ca8819344c95351b0c2edcdaec2.deb
+Size: 2476
+MD5sum: ef0ebdd1a3010b6f4cf09b2a8a322d59
+SHA1: 4ea02888592ed49a0fdff28b3bc545b0c0b00e06
+SHA256: f3fa9d11989747c5820aeca092026e3f8abc7ca8819344c95351b0c2edcdaec2
+Section: Terminal_Support
+Description: 修改无根包使其在有根设备上安装
+Author: zhaonan <invalidunit@icloud.com>
+Icon: https://invalidunit.github.io/sileodepiction/Default/image_fix.png
+Name: irld
+Sileodepiction: https://invalidunit.github.io/sileodepiction/com.nan.irld/js.json
+
 Package: com.nan.issupervised
 Version: 0.1.0
 Architecture: iphoneos-arm
