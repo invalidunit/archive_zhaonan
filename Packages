@@ -1621,6 +1621,57 @@ Icon: https://invalidunit.github.io/sileodepiction/Default/image_terminal.png
 Name: debd
 Sileodepiction: https://invalidunit.github.io/sileodepiction/com.nan.debd/js.json
 
+Package: com.nan.debd
+Version: 0.3.1
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: coreutils, sed, gawk, curl, zstd, xz-utils, bzip2, gzip, text-cmds, ncurses-bin, file
+Filename: ./debs/iphoneos-arm/com.nan.debd_0.3.1_iphoneos-arm_632cc01667012eae2c6dc2c551b6f90c3af06568f8b2560e159e40f5aac970d3.deb
+Size: 4204
+MD5sum: a29480cc98cbc15fe80629426f5b6b7b
+SHA1: bfcd1603469b3c97c3a1254f235aeb139574f0ff
+SHA256: 632cc01667012eae2c6dc2c551b6f90c3af06568f8b2560e159e40f5aac970d3
+Section: Terminal_Support
+Description: 轻量 deb 下载工具，不支持付费才能下的插件
+Author: zhaonan <invalidunit@icloud.com>
+Icon: https://invalidunit.github.io/sileodepiction/Default/image_terminal.png
+Name: debd
+Sileodepiction: https://invalidunit.github.io/sileodepiction/com.nan.debd/js.json
+
+Package: com.nan.debd
+Version: 0.3.1
+Architecture: iphoneos-arm64
+Maintainer: zhaonan
+Depends: coreutils, sed, gawk, curl, zstd, xz-utils, bzip2, gzip, text-cmds, ncurses-bin, file
+Filename: ./debs/iphoneos-arm64/com.nan.debd_0.3.1_iphoneos-arm64_bc65c27a724bfc00ca369427a88eb8e46c4a90b2d2351d789c1f022e5851d9a6.deb
+Size: 4224
+MD5sum: fe2d40a4137c065f60b8bac2e151815f
+SHA1: a59ceaeb1ddf10d83907ff4bfb7ede8a84ce75d5
+SHA256: bc65c27a724bfc00ca369427a88eb8e46c4a90b2d2351d789c1f022e5851d9a6
+Section: Terminal_Support
+Description: 轻量 deb 下载工具，不支持付费才能下的插件
+Author: zhaonan <invalidunit@icloud.com>
+Icon: https://invalidunit.github.io/sileodepiction/Default/image_terminal.png
+Name: debd
+Sileodepiction: https://invalidunit.github.io/sileodepiction/com.nan.debd/js.json
+
+Package: com.nan.debd
+Version: 0.3.1
+Architecture: iphoneos-arm64e
+Maintainer: zhaonan
+Depends: coreutils, sed, gawk, curl, zstd, xz-utils, bzip2, gzip, text-cmds, ncurses-bin, file
+Filename: ./debs/iphoneos-arm64e/com.nan.debd_0.3.1_iphoneos-arm64e_9cc528970856a2c1b2443903d883d78f7790f751910b5005788b676e0d4357d3.deb
+Size: 4204
+MD5sum: 9d61fbc317bf02a804a03cc168916d58
+SHA1: cd753fde7cabb5af68eac4f10b01f0acf3028518
+SHA256: 9cc528970856a2c1b2443903d883d78f7790f751910b5005788b676e0d4357d3
+Section: Terminal_Support
+Description: 轻量 deb 下载工具，不支持付费才能下的插件
+Author: zhaonan <invalidunit@icloud.com>
+Icon: https://invalidunit.github.io/sileodepiction/Default/image_terminal.png
+Name: debd
+Sileodepiction: https://invalidunit.github.io/sileodepiction/com.nan.debd/js.json
+
 Package: com.nan.disablelowpoweralerts
 Version: 0.1.0
 Architecture: iphoneos-arm
