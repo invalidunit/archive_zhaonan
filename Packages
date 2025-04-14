@@ -2660,6 +2660,23 @@ Icon: https://invalidunit.github.io/sileodepiction/Default/image_fix.png
 Name: irld
 Sileodepiction: https://invalidunit.github.io/sileodepiction/com.nan.irld/js.json
 
+Package: com.nan.irld
+Version: 0.1.1
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: coreutils, sed, ncurses-bin
+Filename: ./debs/iphoneos-arm/com.nan.irld_0.1.1_iphoneos-arm_20b99f78dc03bfc0a0bd0b62f8a6a2a3e3249dafa7eeb4711c84b40154c4d9bd.deb
+Size: 2536
+MD5sum: 15129e87cd4dc412b2681bbd28133789
+SHA1: 245f0c459dfc14f9663201a8822829fe4ac59564
+SHA256: 20b99f78dc03bfc0a0bd0b62f8a6a2a3e3249dafa7eeb4711c84b40154c4d9bd
+Section: Terminal_Support
+Description: 修改无根包使其在有根设备上安装
+Author: zhaonan <invalidunit@icloud.com>
+Icon: https://invalidunit.github.io/sileodepiction/Default/image_fix.png
+Name: irld
+Sileodepiction: https://invalidunit.github.io/sileodepiction/com.nan.irld/js.json
+
 Package: com.nan.issupervised
 Version: 0.1.0
 Architecture: iphoneos-arm
