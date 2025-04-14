@@ -3292,6 +3292,57 @@ Icon: https://invalidunit.github.io/sileodepiction/Default/image_fix.png
 Name: Rebirth
 Sileodepiction: https://invalidunit.github.io/sileodepiction/com.nan.rebirth/js.json
 
+Package: com.nan.rebirth
+Version: 0.1.5
+Architecture: iphoneos-arm
+Maintainer: zhaonan
+Depends: coreutils, lsof, gawk
+Filename: ./debs/iphoneos-arm/com.nan.rebirth_0.1.5_iphoneos-arm_58f7c259ebbb7cad72556f23c39ac34ddf99ecaf330ad32c8424122014ffb1d1.deb
+Size: 2152
+MD5sum: 22b2e21668a2ec10d1a624b7e709df17
+SHA1: fb59195f83ce21511fd96ed321e990e68215994c
+SHA256: 58f7c259ebbb7cad72556f23c39ac34ddf99ecaf330ad32c8424122014ffb1d1
+Section: Terminal_Support
+Description: 生成为转生准备的 deb，只需清除越狱后分享给 Sileo，将会依赖安装此包时本地已安装的插件（需要自己先添加源），创建的文件位于 /var/mobile/Documents/
+Author: zhaonan
+Icon: https://invalidunit.github.io/sileodepiction/Default/image_fix.png
+Name: Rebirth
+Sileodepiction: https://invalidunit.github.io/sileodepiction/com.nan.rebirth/js.json
+
+Package: com.nan.rebirth
+Version: 0.1.5
+Architecture: iphoneos-arm64
+Maintainer: zhaonan
+Depends: coreutils, lsof, gawk
+Filename: ./debs/iphoneos-arm64/com.nan.rebirth_0.1.5_iphoneos-arm64_7f0082b33c067cfc2f7da28f7e993c1adac3a7dcc0b29430968f2b1ff74b9678.deb
+Size: 2152
+MD5sum: 0ba0cbb34b1ff54e0c009c6ffbd0a258
+SHA1: 1cb89e078b48f8e8d2016c9033457b5e39b9c882
+SHA256: 7f0082b33c067cfc2f7da28f7e993c1adac3a7dcc0b29430968f2b1ff74b9678
+Section: Terminal_Support
+Description: 生成为转生准备的 deb，只需清除越狱后分享给 Sileo，将会依赖安装此包时本地已安装的插件（需要自己先添加源），创建的文件位于 /var/mobile/Documents/
+Author: zhaonan
+Icon: https://invalidunit.github.io/sileodepiction/Default/image_fix.png
+Name: Rebirth
+Sileodepiction: https://invalidunit.github.io/sileodepiction/com.nan.rebirth/js.json
+
+Package: com.nan.rebirth
+Version: 0.1.5
+Architecture: iphoneos-arm64e
+Maintainer: zhaonan
+Depends: coreutils, lsof, gawk
+Filename: ./debs/iphoneos-arm64e/com.nan.rebirth_0.1.5_iphoneos-arm64e_656f6aa0ca6db68de07dfc9e8c7ffa30d1c7c202a136510949021936b1d202f2.deb
+Size: 2156
+MD5sum: 56c74f9ce402dcf5cd1b857dcefbbba8
+SHA1: c5ac811112fb67897a360ce2920ddc3be81ffbbb
+SHA256: 656f6aa0ca6db68de07dfc9e8c7ffa30d1c7c202a136510949021936b1d202f2
+Section: Terminal_Support
+Description: 生成为转生准备的 deb，只需清除越狱后分享给 Sileo，将会依赖安装此包时本地已安装的插件（需要自己先添加源），创建的文件位于 /var/mobile/Documents/
+Author: zhaonan
+Icon: https://invalidunit.github.io/sileodepiction/Default/image_fix.png
+Name: Rebirth
+Sileodepiction: https://invalidunit.github.io/sileodepiction/com.nan.rebirth/js.json
+
 Package: com.nan.resetfonts
 Version: 0.1.5
 Architecture: iphoneos-arm
