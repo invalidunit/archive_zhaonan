@@ -3279,12 +3279,12 @@ Package: com.nan.rebirth
 Version: 0.1.4
 Architecture: iphoneos-arm64
 Maintainer: zhaonan
-Depends: coreutils, lsof
-Filename: ./debs/iphoneos-arm64/com.nan.rebirth_0.1.4_iphoneos-arm64_f318f3c16e65320fa54baa7d7f72ec24354a4e9e18ae5cde44000de5b25a46f5.deb
-Size: 2048
-MD5sum: e6f7d69585def8cd2de8a6965fee08af
-SHA1: 4c6051c44b9c3ecb98f361f83a6339d91d7ac91e
-SHA256: f318f3c16e65320fa54baa7d7f72ec24354a4e9e18ae5cde44000de5b25a46f5
+Depends: coreutils, lsof, gawk
+Filename: ./debs/iphoneos-arm64/com.nan.rebirth_0.1.4_iphoneos-arm64_f2f7c061ab8a75be42be857abff6d05a183dae83e9a27eb27f3f312af6b19cec.deb
+Size: 2052
+MD5sum: fb06d53d9f204afc157d870efe351dac
+SHA1: 565ffacd7815d23e54b7477d126403966cbe5c59
+SHA256: f2f7c061ab8a75be42be857abff6d05a183dae83e9a27eb27f3f312af6b19cec
 Section: Terminal_Support
 Description: 生成为转生准备的 deb，只需清除越狱后分享给 Sileo，将会依赖安装此包时本地已安装的插件（需要自己先添加源），创建的文件位于 /var/mobile/Documents/
 Author: zhaonan
@@ -3296,12 +3296,12 @@ Package: com.nan.rebirth
 Version: 0.1.4
 Architecture: iphoneos-arm64
 Maintainer: zhaonan
-Depends: coreutils, lsof, gawk
-Filename: ./debs/iphoneos-arm64/com.nan.rebirth_0.1.4_iphoneos-arm64_f2f7c061ab8a75be42be857abff6d05a183dae83e9a27eb27f3f312af6b19cec.deb
-Size: 2052
-MD5sum: fb06d53d9f204afc157d870efe351dac
-SHA1: 565ffacd7815d23e54b7477d126403966cbe5c59
-SHA256: f2f7c061ab8a75be42be857abff6d05a183dae83e9a27eb27f3f312af6b19cec
+Depends: coreutils, lsof
+Filename: ./debs/iphoneos-arm64/com.nan.rebirth_0.1.4_iphoneos-arm64_f318f3c16e65320fa54baa7d7f72ec24354a4e9e18ae5cde44000de5b25a46f5.deb
+Size: 2048
+MD5sum: e6f7d69585def8cd2de8a6965fee08af
+SHA1: 4c6051c44b9c3ecb98f361f83a6339d91d7ac91e
+SHA256: f318f3c16e65320fa54baa7d7f72ec24354a4e9e18ae5cde44000de5b25a46f5
 Section: Terminal_Support
 Description: 生成为转生准备的 deb，只需清除越狱后分享给 Sileo，将会依赖安装此包时本地已安装的插件（需要自己先添加源），创建的文件位于 /var/mobile/Documents/
 Author: zhaonan
