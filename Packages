@@ -3129,6 +3129,39 @@ Icon: https://invalidunit.github.io/sileodepiction/Default/image_fix.png
 Name: Move Icon Image Cache
 Sileodepiction: https://invalidunit.github.io/sileodepiction/com.nan.miic/js.json
 
+Package: com.nan.mjip
+Version: 0.1.0
+Architecture: iphoneos-arm64
+Maintainer: zhaonan
+Depends: coreutils, uikittools, launchctl, shell-cmds, findutils, sed, grep, file
+Filename: ./debs/iphoneos-arm64/com.nan.mjip_0.1.0_iphoneos-arm64_20260308-1135_ae468f3f2f0f51926aa01567452268dc61f0f64e6db6cb6ee307457cde259624.deb
+Size: 3396
+MD5sum: 45a6291dfd24940e5a7733ee76cd7fd7
+SHA1: dd6286457653ff3fba8a0d7c11f7436f1e333687
+SHA256: ae468f3f2f0f51926aa01567452268dc61f0f64e6db6cb6ee307457cde259624
+Section: Addons
+Description: 移动越狱图标路径，这会让其越狱后直接出现在桌面上，重启也不会消失（不过白图标）
+Author: zhaonan
+Icon: https://invalidunit.github.io/sileodepiction/Default/image_fix.png
+Name: Move Jailbreak Icon Path
+Sileodepiction: https://invalidunit.github.io/sileodepiction/com.nan.mjip/js.json
+
+Package: com.nan.mjip
+Version: 0.1.0
+Architecture: iphoneos-arm64e
+Maintainer: zhaonan
+Depends: unsupport-roothide
+Filename: ./debs/iphoneos-arm64e/com.nan.mjip_0.1.0_iphoneos-arm64e_20260308-1135_6ea13d3f9f37ba67450310f366d721d2e4b487224019d5b8b5e455b660f21a6a.deb
+Size: 800
+MD5sum: d4151bef4822fef4db69e35c1c0ca6a0
+SHA1: 8ae5c3cd21a8a97e1cc63bd619d5db15095ec7b1
+SHA256: 6ea13d3f9f37ba67450310f366d721d2e4b487224019d5b8b5e455b660f21a6a
+Section: Addons
+Description: 不支持 RootHide
+Author: zhaonan
+Icon: https://invalidunit.github.io/sileodepiction/Default/image_fix.png
+Name: Move Jailbreak Icon Path
+
 Package: com.nan.mobileicons3x
 Version: 0.14.3
 Architecture: iphoneos-arm
@@ -3319,6 +3352,38 @@ Size: 2236
 MD5sum: 4918acd7891ab2dfcf624e0cc9248923
 SHA1: 41df66ff70523a907403d2062fcf716587c7ef7c
 SHA256: e5b64a1d9ea4e1c4fd3498c6113c0b1a6f307feb69fe576a46056525309f6ed1
+Section: Addons
+Description: 将 jb tmp 放在 /tmp 以防止越来越多的缓存垃圾
+Author: zhaonan
+Icon: https://invalidunit.github.io/sileodepiction/Default/image_fix.png
+Name: Reality tmp
+Sileodepiction: https://invalidunit.github.io/sileodepiction/com.nan.realitytmp/js.json
+
+Package: com.nan.realitytmp
+Version: 0.3.0
+Architecture: iphoneos-arm64
+Maintainer: zhaonan
+Filename: ./debs/iphoneos-arm64/com.nan.realitytmp_0.3.0_iphoneos-arm64_20260308-1135_3ee0691555313c4348c5cd9377dec0785c24399770410b5020172497e160f09c.deb
+Size: 2276
+MD5sum: c2cd525b0eea9f779244be33b7919b5b
+SHA1: 18c314dff814cca88ea7aae7e92755a2e53649f5
+SHA256: 3ee0691555313c4348c5cd9377dec0785c24399770410b5020172497e160f09c
+Section: Addons
+Description: 将 jb tmp 放在 /tmp 以防止越来越多的缓存垃圾
+Author: zhaonan
+Icon: https://invalidunit.github.io/sileodepiction/Default/image_fix.png
+Name: Reality tmp
+Sileodepiction: https://invalidunit.github.io/sileodepiction/com.nan.realitytmp/js.json
+
+Package: com.nan.realitytmp
+Version: 0.3.0
+Architecture: iphoneos-arm64e
+Maintainer: zhaonan
+Filename: ./debs/iphoneos-arm64e/com.nan.realitytmp_0.3.0_iphoneos-arm64e_20260308-1135_0ef25fbe6bb7b46b882495c27dbc677f3430d7cdda4da96e9a6364ec72c42a31.deb
+Size: 2256
+MD5sum: f868e4cc2f6d7abe20cd2821743a19e0
+SHA1: 359315bdd1ddc6bbb345ea91c20031a5278d7f31
+SHA256: 0ef25fbe6bb7b46b882495c27dbc677f3430d7cdda4da96e9a6364ec72c42a31
 Section: Addons
 Description: 将 jb tmp 放在 /tmp 以防止越来越多的缓存垃圾
 Author: zhaonan
