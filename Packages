@@ -3391,6 +3391,38 @@ Icon: https://invalidunit.github.io/sileodepiction/Default/image_fix.png
 Name: Reality tmp
 Sileodepiction: https://invalidunit.github.io/sileodepiction/com.nan.realitytmp/js.json
 
+Package: com.nan.realitytmp
+Version: 0.3.1
+Architecture: iphoneos-arm64
+Maintainer: zhaonan
+Filename: ./debs/iphoneos-arm64/com.nan.realitytmp_0.3.1_iphoneos-arm64_20260309-0801_6ac86c6418a1f09c742631c96715666a9925c64b50247c810e01f577ae06c7eb.deb
+Size: 2416
+MD5sum: c974b7516b9546a8e3b3a34135a91dfd
+SHA1: d232f72ac6c6a4974e268cdb98ba64c4029f517b
+SHA256: 6ac86c6418a1f09c742631c96715666a9925c64b50247c810e01f577ae06c7eb
+Section: Addons
+Description: 将 jb tmp 放在 /tmp 以防止越来越多的缓存垃圾
+Author: zhaonan
+Icon: https://invalidunit.github.io/sileodepiction/Default/image_fix.png
+Name: Reality tmp
+Sileodepiction: https://invalidunit.github.io/sileodepiction/com.nan.realitytmp/js.json
+
+Package: com.nan.realitytmp
+Version: 0.3.1
+Architecture: iphoneos-arm64e
+Maintainer: zhaonan
+Filename: ./debs/iphoneos-arm64e/com.nan.realitytmp_0.3.1_iphoneos-arm64e_20260309-0801_6f88be281ddc09a3c2c3b79b2230d9042511a05ff48070ae0a1c201f4cf04bf3.deb
+Size: 2388
+MD5sum: e9a852893ac5fd3fb3f4c362f2cc9e2d
+SHA1: dbee1795afa73d881670e2b94e5d08b33792ab47
+SHA256: 6f88be281ddc09a3c2c3b79b2230d9042511a05ff48070ae0a1c201f4cf04bf3
+Section: Addons
+Description: 将 jb tmp 放在 /tmp 以防止越来越多的缓存垃圾
+Author: zhaonan
+Icon: https://invalidunit.github.io/sileodepiction/Default/image_fix.png
+Name: Reality tmp
+Sileodepiction: https://invalidunit.github.io/sileodepiction/com.nan.realitytmp/js.json
+
 Package: com.nan.rebirth
 Version: 0.1.4
 Architecture: iphoneos-arm64
