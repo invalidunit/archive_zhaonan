@@ -3427,23 +3427,6 @@ Package: com.nan.rebirth
 Version: 0.1.4
 Architecture: iphoneos-arm
 Maintainer: zhaonan
-Depends: coreutils, lsof, gawk
-Filename: ./debs/iphoneos-arm/com.nan.rebirth_0.1.4_iphoneos-arm_320f3bd14eb0a2a281cc05e0f3866381d91191cdc3513c3b040f8cb2044cadb5.deb
-Size: 2052
-MD5sum: 38bb6e3b1bd80adacf359d1ddf0d9dcb
-SHA1: 8a68af54a1acef3c02a865ebd857a465e81afb5d
-SHA256: 320f3bd14eb0a2a281cc05e0f3866381d91191cdc3513c3b040f8cb2044cadb5
-Section: Terminal_Support
-Description: 生成为转生准备的 deb，只需清除越狱后分享给 Sileo，将会依赖安装此包时本地已安装的插件（需要自己先添加源），创建的文件位于 /var/mobile/Documents/
-Author: zhaonan
-Icon: https://invalidunit.github.io/sileodepiction/Default/image_fix.png
-Name: Rebirth
-Sileodepiction: https://invalidunit.github.io/sileodepiction/com.nan.rebirth/js.json
-
-Package: com.nan.rebirth
-Version: 0.1.4
-Architecture: iphoneos-arm
-Maintainer: zhaonan
 Depends: coreutils, lsof
 Filename: ./debs/iphoneos-arm/com.nan.rebirth_0.1.4_iphoneos-arm_5dcfcf8945c9ea5f79fe6d858661bc97d408929c0e41e8d743a721efe366eb6a.deb
 Size: 2048
@@ -3459,14 +3442,14 @@ Sileodepiction: https://invalidunit.github.io/sileodepiction/com.nan.rebirth/js.
 
 Package: com.nan.rebirth
 Version: 0.1.4
-Architecture: iphoneos-arm64
+Architecture: iphoneos-arm
 Maintainer: zhaonan
-Depends: coreutils, lsof
-Filename: ./debs/iphoneos-arm64/com.nan.rebirth_0.1.4_iphoneos-arm64_f318f3c16e65320fa54baa7d7f72ec24354a4e9e18ae5cde44000de5b25a46f5.deb
-Size: 2048
-MD5sum: e6f7d69585def8cd2de8a6965fee08af
-SHA1: 4c6051c44b9c3ecb98f361f83a6339d91d7ac91e
-SHA256: f318f3c16e65320fa54baa7d7f72ec24354a4e9e18ae5cde44000de5b25a46f5
+Depends: coreutils, lsof, gawk
+Filename: ./debs/iphoneos-arm/com.nan.rebirth_0.1.4_iphoneos-arm_320f3bd14eb0a2a281cc05e0f3866381d91191cdc3513c3b040f8cb2044cadb5.deb
+Size: 2052
+MD5sum: 38bb6e3b1bd80adacf359d1ddf0d9dcb
+SHA1: 8a68af54a1acef3c02a865ebd857a465e81afb5d
+SHA256: 320f3bd14eb0a2a281cc05e0f3866381d91191cdc3513c3b040f8cb2044cadb5
 Section: Terminal_Support
 Description: 生成为转生准备的 deb，只需清除越狱后分享给 Sileo，将会依赖安装此包时本地已安装的插件（需要自己先添加源），创建的文件位于 /var/mobile/Documents/
 Author: zhaonan
@@ -3493,14 +3476,14 @@ Sileodepiction: https://invalidunit.github.io/sileodepiction/com.nan.rebirth/js.
 
 Package: com.nan.rebirth
 Version: 0.1.4
-Architecture: iphoneos-arm64e
+Architecture: iphoneos-arm64
 Maintainer: zhaonan
-Depends: coreutils, lsof, gawk
-Filename: ./debs/iphoneos-arm64e/com.nan.rebirth_0.1.4_iphoneos-arm64e_319b7fa0cc7754288e394c30f7cfbf89fcd3eb0ac50bab9d30fe0da7b336ed38.deb
-Size: 2060
-MD5sum: c487f45cdc828f2d6e6ccd90cf482d78
-SHA1: 82c0cfbbbb52eb7b78ba7cccf28a2770bbf5142c
-SHA256: 319b7fa0cc7754288e394c30f7cfbf89fcd3eb0ac50bab9d30fe0da7b336ed38
+Depends: coreutils, lsof
+Filename: ./debs/iphoneos-arm64/com.nan.rebirth_0.1.4_iphoneos-arm64_f318f3c16e65320fa54baa7d7f72ec24354a4e9e18ae5cde44000de5b25a46f5.deb
+Size: 2048
+MD5sum: e6f7d69585def8cd2de8a6965fee08af
+SHA1: 4c6051c44b9c3ecb98f361f83a6339d91d7ac91e
+SHA256: f318f3c16e65320fa54baa7d7f72ec24354a4e9e18ae5cde44000de5b25a46f5
 Section: Terminal_Support
 Description: 生成为转生准备的 deb，只需清除越狱后分享给 Sileo，将会依赖安装此包时本地已安装的插件（需要自己先添加源），创建的文件位于 /var/mobile/Documents/
 Author: zhaonan
@@ -3518,6 +3501,23 @@ Size: 2048
 MD5sum: 2209eb84a0a3965f0309ebedcf894a26
 SHA1: 28bce8bc731a571ccc0162041c9996b2a0a69cee
 SHA256: 8690233ab6f53777404f34a9467326210542e182e44c25f9cb13304c9e7b0dad
+Section: Terminal_Support
+Description: 生成为转生准备的 deb，只需清除越狱后分享给 Sileo，将会依赖安装此包时本地已安装的插件（需要自己先添加源），创建的文件位于 /var/mobile/Documents/
+Author: zhaonan
+Icon: https://invalidunit.github.io/sileodepiction/Default/image_fix.png
+Name: Rebirth
+Sileodepiction: https://invalidunit.github.io/sileodepiction/com.nan.rebirth/js.json
+
+Package: com.nan.rebirth
+Version: 0.1.4
+Architecture: iphoneos-arm64e
+Maintainer: zhaonan
+Depends: coreutils, lsof, gawk
+Filename: ./debs/iphoneos-arm64e/com.nan.rebirth_0.1.4_iphoneos-arm64e_319b7fa0cc7754288e394c30f7cfbf89fcd3eb0ac50bab9d30fe0da7b336ed38.deb
+Size: 2060
+MD5sum: c487f45cdc828f2d6e6ccd90cf482d78
+SHA1: 82c0cfbbbb52eb7b78ba7cccf28a2770bbf5142c
+SHA256: 319b7fa0cc7754288e394c30f7cfbf89fcd3eb0ac50bab9d30fe0da7b336ed38
 Section: Terminal_Support
 Description: 生成为转生准备的 deb，只需清除越狱后分享给 Sileo，将会依赖安装此包时本地已安装的插件（需要自己先添加源），创建的文件位于 /var/mobile/Documents/
 Author: zhaonan
