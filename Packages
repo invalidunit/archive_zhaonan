@@ -3625,6 +3625,24 @@ SileoDepiction: https://invalidunit.github.io/sileodepiction/com.nan.realitytmp/
 Icon: https://invalidunit.github.io/sileodepiction/Default/image_fix.png
 
 Package: com.nan.realitytmp
+Architecture: iphoneos-arm64
+Version: 0.3.3-1
+Section: Addons
+Maintainer: zhaonan
+Depends: coreutils, gawk, grep, system-cmds, file-cmds, text-cmds
+Filename: ./debs/iphoneos-arm64/com.nan.realitytmp_0.3.3-1_iphoneos-arm64_20260618-0703_0c1d38cbf336eb93949ff4751df195f50454decdbb482187a1c372f5942d973d.deb
+Size: 2512
+MD5sum: b5bb5f69eb38967bf26bc2613bbdb608
+SHA1: ba731cd027c426dbb0cb45f0087d24fbca5d9416
+SHA256: 0c1d38cbf336eb93949ff4751df195f50454decdbb482187a1c372f5942d973d
+SHA512: 902e000b8bcecc4333b2ecf7cad2742ff63ed3898ccc5c44139032a59c6a8b0427986aac8011298de55db36c13ca92f13ff074b9a5948a6e11a7a7b57ca153e8
+Description: 将 jb tmp 放在 /tmp 以防止越来越多的缓存垃圾
+Name: Reality tmp
+Author: zhaonan
+SileoDepiction: https://invalidunit.github.io/sileodepiction/com.nan.realitytmp/js.json
+Icon: https://invalidunit.github.io/sileodepiction/Default/image_fix.png
+
+Package: com.nan.realitytmp
 Architecture: iphoneos-arm64e
 Version: 0.2.2
 Section: Addons
@@ -3703,6 +3721,24 @@ MD5sum: c18c26f19109b38b3d99b49c84ea749e
 SHA1: e1fb8bde3f0278fa9dfbdfc2232b196bbcd720ba
 SHA256: f7b532f307c78ba999b96425d681ae316741793f7702de979ca261f44ecf63fc
 SHA512: e0fc54f7cf7ca135dbb348c3495dff1aa531add7ad86bcc9aee32f6d04940eb55bcc23845eb0a5f7b9d6e8b086d56701fe6e0d0da46dc0dbe7c21452d585821b
+Description: 将 jb tmp 放在 /tmp 以防止越来越多的缓存垃圾
+Name: Reality tmp
+Author: zhaonan
+SileoDepiction: https://invalidunit.github.io/sileodepiction/com.nan.realitytmp/js.json
+Icon: https://invalidunit.github.io/sileodepiction/Default/image_fix.png
+
+Package: com.nan.realitytmp
+Architecture: iphoneos-arm64e
+Version: 0.3.3-1
+Section: Addons
+Maintainer: zhaonan
+Depends: coreutils, gawk, grep, system-cmds, file-cmds, text-cmds
+Filename: ./debs/iphoneos-arm64e/com.nan.realitytmp_0.3.3-1_iphoneos-arm64e_20260618-0703_77f588bb48694e880346df3d0632256c639521cab415b5f3fbae9293be460c95.deb
+Size: 2472
+MD5sum: 8a9f6089acc3e82ff87e246f8644b420
+SHA1: 88a70ecbc66a6d566cad23b4019271aa56801bd7
+SHA256: 77f588bb48694e880346df3d0632256c639521cab415b5f3fbae9293be460c95
+SHA512: 41dfaac4550b4140386d05765536e078c982382a11577bafcc4a7672b375e9c940edb3273b0dd1a9735d833e4db4c5e152a54dcd6f09d801f3c6f6f5511c19b7
 Description: 将 jb tmp 放在 /tmp 以防止越来越多的缓存垃圾
 Name: Reality tmp
 Author: zhaonan
