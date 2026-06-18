@@ -1751,6 +1751,24 @@ SileoDepiction: https://invalidunit.github.io/sileodepiction/com.nan.debd/js.jso
 Icon: https://invalidunit.github.io/sileodepiction/Default/image_terminal.png
 
 Package: com.nan.debd
+Architecture: iphoneos-arm
+Version: 0.4.2
+Section: Terminal_Support
+Maintainer: zhaonan
+Depends: coreutils, sed, gawk, curl, zstd, xz-utils, bzip2, gzip, text-cmds, ncurses-bin, file, jq, defaults
+Filename: ./debs/iphoneos-arm/com.nan.debd_0.4.2_iphoneos-arm_20260618-0143_1fea4e62b68ea0cd2d49468a81a002c916f537b3bd71e53939af4820645b80d9.deb
+Size: 4828
+MD5sum: d5bf4b2aeb3ce42a8b48252706b18be8
+SHA1: 0e65792f8264ee09ea1eec27cfc75e94a5ff0d68
+SHA256: 1fea4e62b68ea0cd2d49468a81a002c916f537b3bd71e53939af4820645b80d9
+SHA512: b92cc6be2e50c04ff32d1a254043adbe03436c32c21ed867a359e15814a677bcfa761ad9bb91431772d55894a23f793f69bfcee033dcac6a40aa16db4bbbbcb8
+Description: 轻量 deb 下载工具，不支持付费才能下的插件
+Name: debd
+Author: zhaonan
+SileoDepiction: https://invalidunit.github.io/sileodepiction/com.nan.debd/js.json
+Icon: https://invalidunit.github.io/sileodepiction/Default/image_terminal.png
+
+Package: com.nan.debd
 Architecture: iphoneos-arm64
 Version: 0.1.0
 Section: Terminal_Support
@@ -1949,6 +1967,24 @@ SileoDepiction: https://invalidunit.github.io/sileodepiction/com.nan.debd/js.jso
 Icon: https://invalidunit.github.io/sileodepiction/Default/image_terminal.png
 
 Package: com.nan.debd
+Architecture: iphoneos-arm64
+Version: 0.4.2
+Section: Terminal_Support
+Maintainer: zhaonan
+Depends: coreutils, sed, gawk, curl, zstd, xz-utils, bzip2, gzip, text-cmds, ncurses-bin, file, jq, defaults
+Filename: ./debs/iphoneos-arm64/com.nan.debd_0.4.2_iphoneos-arm64_20260618-0143_b7527ddcbf37967b9683bb77ee9a19a25723c26d0f24d2002617a8e5c5010a36.deb
+Size: 4852
+MD5sum: d3ec841e8d6f78805461b3bd1f680086
+SHA1: ded8b091529b956e3c2b56050a6e1569ce91959b
+SHA256: b7527ddcbf37967b9683bb77ee9a19a25723c26d0f24d2002617a8e5c5010a36
+SHA512: d682081706bf810c567aa20610536d52c7c700e4a889b751a0a3d00d2581ad1615e87498d6f2e5324785dffa152288aca25e2a42779eaabb5413e79aa14086dd
+Description: 轻量 deb 下载工具，不支持付费才能下的插件
+Name: debd
+Author: zhaonan
+SileoDepiction: https://invalidunit.github.io/sileodepiction/com.nan.debd/js.json
+Icon: https://invalidunit.github.io/sileodepiction/Default/image_terminal.png
+
+Package: com.nan.debd
 Architecture: iphoneos-arm64e
 Version: 0.1.0
 Section: Terminal_Support
@@ -2143,6 +2179,24 @@ SHA512: a3736744f9f7dee51e62aa937148219797cc9ba00c47a46a83ea6a9f85c0f58e068492b7
 Description: 轻量 deb 下载工具，不支持付费才能下的插件
 Name: debd
 Author: zhaonan <invalidunit@icloud.com>
+SileoDepiction: https://invalidunit.github.io/sileodepiction/com.nan.debd/js.json
+Icon: https://invalidunit.github.io/sileodepiction/Default/image_terminal.png
+
+Package: com.nan.debd
+Architecture: iphoneos-arm64e
+Version: 0.4.2
+Section: Terminal_Support
+Maintainer: zhaonan
+Depends: coreutils, sed, gawk, curl, zstd, xz-utils, bzip2, gzip, text-cmds, ncurses-bin, file, jq, defaults
+Filename: ./debs/iphoneos-arm64e/com.nan.debd_0.4.2_iphoneos-arm64e_20260618-0143_422abafa4f7c8286f167e93a870e378bc4c0c7602601b4b2a85afb56d441295d.deb
+Size: 4828
+MD5sum: a6ba1ad0d8cebaa9ea8c22cfa5baf021
+SHA1: 918403eeeb4406278572de5211863732cc6e19be
+SHA256: 422abafa4f7c8286f167e93a870e378bc4c0c7602601b4b2a85afb56d441295d
+SHA512: 9267af129821d038646021ae67d548373f3aa08160bd1ba765fe754e2273d59510db3ebcab0f131886090fb46ff50b112812b4858556f4f813c3e756073324ed
+Description: 轻量 deb 下载工具，不支持付费才能下的插件
+Name: debd
+Author: zhaonan
 SileoDepiction: https://invalidunit.github.io/sileodepiction/com.nan.debd/js.json
 Icon: https://invalidunit.github.io/sileodepiction/Default/image_terminal.png
 
@@ -3554,6 +3608,23 @@ SileoDepiction: https://invalidunit.github.io/sileodepiction/com.nan.realitytmp/
 Icon: https://invalidunit.github.io/sileodepiction/Default/image_fix.png
 
 Package: com.nan.realitytmp
+Architecture: iphoneos-arm64
+Version: 0.3.3
+Section: Addons
+Maintainer: zhaonan
+Filename: ./debs/iphoneos-arm64/com.nan.realitytmp_0.3.3_iphoneos-arm64_20260618-0143_c055f3c7deb2f14174d5a43a731a95cd4fe40bde45517ccf6fe6629fbbad1613.deb
+Size: 2468
+MD5sum: 0bbb2e4b5c226e4ffdf4daa2ba6ee029
+SHA1: 970be6f5806820730df0142cb33c7c5bfb8082a9
+SHA256: c055f3c7deb2f14174d5a43a731a95cd4fe40bde45517ccf6fe6629fbbad1613
+SHA512: 1eb5c2e67c262323528276996489bed7006fcf4e0e459eb12c66f3026efefc2ef3ace3d6c75851559d6061c0eea188c6e9fa0b18ad927e736a9b0bcd00a69f55
+Description: 将 jb tmp 放在 /tmp 以防止越来越多的缓存垃圾
+Name: Reality tmp
+Author: zhaonan
+SileoDepiction: https://invalidunit.github.io/sileodepiction/com.nan.realitytmp/js.json
+Icon: https://invalidunit.github.io/sileodepiction/Default/image_fix.png
+
+Package: com.nan.realitytmp
 Architecture: iphoneos-arm64e
 Version: 0.2.2
 Section: Addons
@@ -3615,6 +3686,23 @@ MD5sum: e9a852893ac5fd3fb3f4c362f2cc9e2d
 SHA1: dbee1795afa73d881670e2b94e5d08b33792ab47
 SHA256: 6f88be281ddc09a3c2c3b79b2230d9042511a05ff48070ae0a1c201f4cf04bf3
 SHA512: 697356f07ba50d114ac6fb6811fba5c753339a6813c31870296df130ae92de9b16d5cfbf4b246250f601ccc5d13b11c4f30918f9a7a1bcb393a644c1f43232f4
+Description: 将 jb tmp 放在 /tmp 以防止越来越多的缓存垃圾
+Name: Reality tmp
+Author: zhaonan
+SileoDepiction: https://invalidunit.github.io/sileodepiction/com.nan.realitytmp/js.json
+Icon: https://invalidunit.github.io/sileodepiction/Default/image_fix.png
+
+Package: com.nan.realitytmp
+Architecture: iphoneos-arm64e
+Version: 0.3.3
+Section: Addons
+Maintainer: zhaonan
+Filename: ./debs/iphoneos-arm64e/com.nan.realitytmp_0.3.3_iphoneos-arm64e_20260618-0143_f7b532f307c78ba999b96425d681ae316741793f7702de979ca261f44ecf63fc.deb
+Size: 2424
+MD5sum: c18c26f19109b38b3d99b49c84ea749e
+SHA1: e1fb8bde3f0278fa9dfbdfc2232b196bbcd720ba
+SHA256: f7b532f307c78ba999b96425d681ae316741793f7702de979ca261f44ecf63fc
+SHA512: e0fc54f7cf7ca135dbb348c3495dff1aa531add7ad86bcc9aee32f6d04940eb55bcc23845eb0a5f7b9d6e8b086d56701fe6e0d0da46dc0dbe7c21452d585821b
 Description: 将 jb tmp 放在 /tmp 以防止越来越多的缓存垃圾
 Name: Reality tmp
 Author: zhaonan
