@@ -1149,6 +1149,66 @@ Author: zhaonan
 SileoDepiction: https://invalidunit.github.io/sileodepiction/com.nan.crc/js.json
 Icon: https://invalidunit.github.io/sileodepiction/Default/image_fix.png
 
+Package: com.nan.csp
+Architecture: iphoneos-arm
+Version: 0.1.0
+Section: Addons
+Maintainer: zhaonan
+Pre-Depends: openssh-server | openssh
+Depends: sed, uikittools, uikittools-extra, lsof, plutil | com.bingner.plutil | com.ericasadun.utilities
+Conflicts: com.nan.localhostssh
+Filename: ./debs/iphoneos-arm/com.nan.csp_0.1.0_iphoneos-arm_20260723-1745_4cd05dd747ae97c574ac2a2ee084188b774300fdc5fc1ef4907b3a53b65416c3.deb
+Size: 2420
+MD5sum: 1eb71505e78e8bf7f141eb0ea6412bae
+SHA1: 6e12d630fb7f91afd5e075f48410df00f11a0108
+SHA256: 4cd05dd747ae97c574ac2a2ee084188b774300fdc5fc1ef4907b3a53b65416c3
+SHA512: e59300262f0baef147d78254d835668c6873b8ffc6d18971b4d41702d9fa97a67c1ce7feffd33612fef5267328f3b79b38634a73f0f9c56b38231d44c90b2851
+Description: 自定义 SSH 端口并限制为仅限本机访问
+Name: Custom SSH Port
+Author: zhaonan
+SileoDepiction: https://invalidunit.github.io/sileodepiction/com.nan.csp/js.json
+Icon: https://invalidunit.github.io/sileodepiction/com.nan.csp/image.png
+
+Package: com.nan.csp
+Architecture: iphoneos-arm64
+Version: 0.1.0
+Section: Addons
+Maintainer: zhaonan
+Pre-Depends: openssh-server | openssh
+Depends: sed, uikittools, uikittools-extra, lsof, plutil | com.bingner.plutil | com.ericasadun.utilities
+Conflicts: com.nan.localhostssh
+Filename: ./debs/iphoneos-arm64/com.nan.csp_0.1.0_iphoneos-arm64_20260723-1745_2866884a282fc2cd7b2cb69ff8049719474e57629bd09a1ed621961ed3097893.deb
+Size: 2428
+MD5sum: ba469f261101c7ef4945fe8bb78cb7e6
+SHA1: 761e3a74ac30be78b3cc6b6515ee0d4fab8c0966
+SHA256: 2866884a282fc2cd7b2cb69ff8049719474e57629bd09a1ed621961ed3097893
+SHA512: 8807963812de5f59916ef9438f0a74789599b9e7854578cb11ed973644681906adfb62dc92cea8e5fd3adc13f0dbf1a50fdd0bb93052f36badd0b9565b039485
+Description: 自定义 SSH 端口并限制为仅限本机访问
+Name: Custom SSH Port
+Author: zhaonan
+SileoDepiction: https://invalidunit.github.io/sileodepiction/com.nan.csp/js.json
+Icon: https://invalidunit.github.io/sileodepiction/com.nan.csp/image.png
+
+Package: com.nan.csp
+Architecture: iphoneos-arm64e
+Version: 0.1.0
+Section: Addons
+Maintainer: zhaonan
+Pre-Depends: openssh-server | openssh
+Depends: sed, uikittools, uikittools-extra, lsof, plutil | com.bingner.plutil | com.ericasadun.utilities
+Conflicts: com.nan.localhostssh
+Filename: ./debs/iphoneos-arm64e/com.nan.csp_0.1.0_iphoneos-arm64e_20260723-1745_17248b3d2641cee68d562446b7fd976a310975787379b0432d8d0ad536f88583.deb
+Size: 2424
+MD5sum: 523dad71192633cbab48c49490bb5e51
+SHA1: 1106e8ac1fd2cfb85c2659527b578f437906a752
+SHA256: 17248b3d2641cee68d562446b7fd976a310975787379b0432d8d0ad536f88583
+SHA512: 728594023650c2b82d686e1d92040139efa112570202931c20667a7a0fa55c5fa02450d2de8684488c7f53575663275d5c091323ebc991e045d4c9023f014170
+Description: 自定义 SSH 端口并限制为仅限本机访问
+Name: Custom SSH Port
+Author: zhaonan
+SileoDepiction: https://invalidunit.github.io/sileodepiction/com.nan.csp/js.json
+Icon: https://invalidunit.github.io/sileodepiction/com.nan.csp/image.png
+
 Package: com.nan.cy+cpu.arm64
 Architecture: iphoneos-arm
 Version: 0.1.0
