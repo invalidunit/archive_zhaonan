@@ -1039,6 +1039,25 @@ SileoDepiction: https://invalidunit.github.io/sileodepiction/com.nan.bindfs/js.j
 Icon: https://invalidunit.github.io/sileodepiction/Default/image_terminal.png
 
 Package: com.nan.bindfs
+Architecture: iphoneos-arm64
+Version: 0.6.0
+Section: Terminal_Support
+Maintainer: 无尽伤痛都锁进黑夜 & zhaonan
+Depends: coreutils, sed, plutil, firmware (>> 14.0)
+Conflicts: mobilesubstrate (= 999)
+Filename: ./debs/iphoneos-arm64/com.nan.bindfs_0.6.0_iphoneos-arm64_20260802-1517_45a64dc6b4ef30298b01e4a1f74fc30d438d7a4f09e17d840d341870a679ca91.deb
+Size: 13148
+MD5sum: 54b079b337c68a58f744adbb418ecb03
+SHA1: 27647b76818f56e46de7ac796bc0480514677575
+SHA256: 45a64dc6b4ef30298b01e4a1f74fc30d438d7a4f09e17d840d341870a679ca91
+SHA512: 2f87084fea0008ab128e5e6f97fd0a4b98474b6e9014bd0cefcdaeeee41d8edbd786f78ae7ec500fd8c5dffa96fb1d940d2215ad0cadfe1f6914b2b9925cf9cd
+Description: 以 bindfs 挂载文件夹的 cli 工具
+Name: mount_bindfs (Dopamine)
+Author: 无尽伤痛都锁进黑夜 & zhaonan
+SileoDepiction: https://invalidunit.github.io/sileodepiction/com.nan.bindfs/js.json
+Icon: https://invalidunit.github.io/sileodepiction/default/image_terminal.png
+
+Package: com.nan.bindfs
 Architecture: iphoneos-arm64e
 Version: 0.3.6
 Section: Terminal_Support
@@ -1222,6 +1241,25 @@ MD5sum: f8ebae1cdd54af0eb903923cd43ab3d9
 SHA1: 72e715352ccc93f644b84809c86ae464fc885fcd
 SHA256: 55907543c8f9f89317460294f9679e23b20dab0e7ab29cc307c9f133e278c200
 SHA512: adc9ab7deed2fd10ccc71f5489bb82645b068f520b34da36856098204d0df841d054bc2627d0b49e57ac43706c0a027c0abaac52b7f99da6cc3a79b63e940653
+Description: 以 bindfs 挂载文件夹的 cli 工具
+Name: mount_bindfs (Dopamine)
+Author: 无尽伤痛都锁进黑夜 & zhaonan
+SileoDepiction: https://invalidunit.github.io/sileodepiction/com.nan.bindfs/js.json
+Icon: https://invalidunit.github.io/sileodepiction/default/image_terminal.png
+
+Package: com.nan.bindfs
+Architecture: iphoneos-arm64e
+Version: 0.6.0
+Section: Terminal_Support
+Maintainer: 无尽伤痛都锁进黑夜 & zhaonan
+Depends: coreutils, sed, plutil, firmware (>> 14.0)
+Conflicts: mobilesubstrate (= 999)
+Filename: ./debs/iphoneos-arm64e/com.nan.bindfs_0.6.0_iphoneos-arm64e_20260802-1517_3741205cbdcb1def4ece24284c73c438af6a1c763696139cc187b5cb23230cab.deb
+Size: 13136
+MD5sum: 472ca315563a113ea561dfed0a9cb540
+SHA1: 8462765c0264f7e33dd3d514319783dba4418fe4
+SHA256: 3741205cbdcb1def4ece24284c73c438af6a1c763696139cc187b5cb23230cab
+SHA512: e33cb489e9559fc74ade2e45fbfb3b84d69c3598e7043901ed95094e0af7b50dc821433b43babf3d7285248427c86611a588278eed8e35bd65432e40492d7817
 Description: 以 bindfs 挂载文件夹的 cli 工具
 Name: mount_bindfs (Dopamine)
 Author: 无尽伤痛都锁进黑夜 & zhaonan
@@ -2023,6 +2061,26 @@ SileoDepiction: https://invalidunit.github.io/sileodepiction/com.nan.csp/js.json
 Icon: https://invalidunit.github.io/sileodepiction/com.nan.csp/image.png
 
 Package: com.nan.csp
+Architecture: iphoneos-arm64
+Version: 0.1.0
+Section: Addons
+Maintainer: zhaonan
+Pre-Depends: openssh-server | openssh
+Depends: sed, uikittools, uikittools-extra, lsof, plutil | com.bingner.plutil | com.ericasadun.utilities
+Conflicts: com.nan.localhostssh
+Filename: ./debs/iphoneos-arm64/com.nan.csp_0.1.0_iphoneos-arm64_20260802-1517_b19e8bfb200bc156170f981b5b8e8fb3b6c6d4b7d41bf239c7bbb49faf257222.deb
+Size: 2396
+MD5sum: 6aea7f515f2605a79e3c19ee4f2d2598
+SHA1: b05cce3d78b5ca3158e174d73a5eac8f8f6cf601
+SHA256: b19e8bfb200bc156170f981b5b8e8fb3b6c6d4b7d41bf239c7bbb49faf257222
+SHA512: f8b4c56779273a2aa76daacd7cef7829d90d34a8a07d56bd1b20bef4ebd2e332363c96a4359f221f0bd58a15f8c694f8eaeb9ad72ea55b790d1b22d08af999f9
+Description: 自定义 SSH 端口
+Name: Custom SSH Port
+Author: zhaonan
+SileoDepiction: https://invalidunit.github.io/sileodepiction/com.nan.csp/js.json
+Icon: https://invalidunit.github.io/sileodepiction/com.nan.csp/image.png
+
+Package: com.nan.csp
 Architecture: iphoneos-arm64e
 Version: 0.1.0
 Section: Addons
@@ -2057,6 +2115,26 @@ SHA1: 7bf0592f90c17f3ea7fd925c02797b2d1b801f4e
 SHA256: 65d91e606a8a88ccd96467f6995a9c18f01cb83748f7bfe10043ea1a6daf9256
 SHA512: 8816668ad0b518bdcc6fdd7884a8f6a246082a320afed66b2c609ff48ae138837c2e159646280c9f1e070ad8ac67a01b6e8ec73a35e3218e743ed49e300d66ab
 Description: 自定义 SSH 端口并限制为仅限本机访问
+Name: Custom SSH Port
+Author: zhaonan
+SileoDepiction: https://invalidunit.github.io/sileodepiction/com.nan.csp/js.json
+Icon: https://invalidunit.github.io/sileodepiction/com.nan.csp/image.png
+
+Package: com.nan.csp
+Architecture: iphoneos-arm64e
+Version: 0.1.0
+Section: Addons
+Maintainer: zhaonan
+Pre-Depends: openssh-server | openssh
+Depends: sed, uikittools, uikittools-extra, lsof, plutil | com.bingner.plutil | com.ericasadun.utilities
+Conflicts: com.nan.localhostssh
+Filename: ./debs/iphoneos-arm64e/com.nan.csp_0.1.0_iphoneos-arm64e_20260802-1517_102a130975478d5a284f3e35f166e2198ca1945fa04ee06c537dbb7a924efc80.deb
+Size: 2396
+MD5sum: e60fb64827793d88ad9f1f0b9e9d6de2
+SHA1: 310ff5aec43a163112b2a024bc2ffd5d7616f4f7
+SHA256: 102a130975478d5a284f3e35f166e2198ca1945fa04ee06c537dbb7a924efc80
+SHA512: a851b4002f61c3bb61318cebc1b56e6be0c29eee2cc7d10262d072f8ea23c956aea1c801068f47721f088718765ae3d0d07ac5ce233d07aade96c5c4cd2615d9
+Description: 自定义 SSH 端口
 Name: Custom SSH Port
 Author: zhaonan
 SileoDepiction: https://invalidunit.github.io/sileodepiction/com.nan.csp/js.json
