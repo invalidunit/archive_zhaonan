@@ -4484,6 +4484,60 @@ Author: zhaonan
 SileoDepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.fh/js.json
 Icon: https://Invalidunit.github.io/repo/Depictions/Default/image_terminal.png
 
+Package: com.nan.filza-script-zip-in-background
+Architecture: iphoneos-arm
+Version: 0.1.0
+Section: Addons
+Maintainer: zhaonan
+Depends: sed, plutil, uikittools-extra, screen, p7zip
+Filename: ./debs/iphoneos-arm/com.nan.filza-script-zip-in-background_0.1.0_iphoneos-arm_20260816-1535_69aefb2862a9a6016852bb35d17c3abf8a52c6625e4279b896187cf05c8e6560.deb
+Size: 1948
+MD5sum: b932a87c702f2b254448b6bb69820fc9
+SHA1: fafb29b1e5be9123a17d60c4b0a0989dac8e3f90
+SHA256: 69aefb2862a9a6016852bb35d17c3abf8a52c6625e4279b896187cf05c8e6560
+SHA512: 330e89efbfc4b7f6f6bbf8da24a0ec8bcca32c9f4336043b3300e0b96937ee2409323bd0413f4cbbc3ab5a9b0919c464c0136b582dab48ba2edc1fa5b0f803a9
+Description: 通过 Filza 脚本启动一个后台压缩进程，可启动后在多任务划掉 Filza 后台而不终止压缩，并在压缩结束后通过通知横幅提醒已结束，使用只需长按文件或文件夹然后点击使用脚本
+Name: FilzaScript Zip in Background
+Author: zhaonan
+SileoDepiction: https://invalidunit.github.io/sileodepiction/com.nan.filza-script/zip-in-background/js.json
+Icon: https://invalidunit.github.io/sileodepiction/default/image_fix.png
+
+Package: com.nan.filza-script-zip-in-background
+Architecture: iphoneos-arm64
+Version: 0.1.0
+Section: Addons
+Maintainer: zhaonan
+Depends: sed, plutil, uikittools-extra, screen, p7zip
+Filename: ./debs/iphoneos-arm64/com.nan.filza-script-zip-in-background_0.1.0_iphoneos-arm64_20260816-1535_d352f48fe263aa32015e55ec8c92807e0f631b23bb4c08fcb27dd6796d96d0c7.deb
+Size: 1948
+MD5sum: 5acd7ce349e9cf8517c3adb3133ff76c
+SHA1: 04f6b02ecfe5c7e1335e491a1a29715b0da911b7
+SHA256: d352f48fe263aa32015e55ec8c92807e0f631b23bb4c08fcb27dd6796d96d0c7
+SHA512: f626634606c3365f676e900a729f3ebc5073724cfce878c155633a8036c9baa7f1bf713e71db802d723555a6bc7c691848901476cc7cb838badab5c5d5b23321
+Description: 通过 Filza 脚本启动一个后台压缩进程，可启动后在多任务划掉 Filza 后台而不终止压缩，并在压缩结束后通过通知横幅提醒已结束，使用只需长按文件或文件夹然后点击使用脚本
+Name: FilzaScript Zip in Background
+Author: zhaonan
+SileoDepiction: https://invalidunit.github.io/sileodepiction/com.nan.filza-script/zip-in-background/js.json
+Icon: https://invalidunit.github.io/sileodepiction/default/image_fix.png
+
+Package: com.nan.filza-script-zip-in-background
+Architecture: iphoneos-arm64e
+Version: 0.1.0
+Section: Addons
+Maintainer: zhaonan
+Depends: sed, plutil, uikittools-extra, screen, p7zip
+Filename: ./debs/iphoneos-arm64e/com.nan.filza-script-zip-in-background_0.1.0_iphoneos-arm64e_20260816-1535_485a19ac113f936da017d1072ec2112df8553f43eaabf9e173bfdac2859ed7c0.deb
+Size: 1952
+MD5sum: 67f9766326b4d0fb1e97e9c04cbe7732
+SHA1: 3d95df11ae583b3d7dc2f4dc4f43d725793c5705
+SHA256: 485a19ac113f936da017d1072ec2112df8553f43eaabf9e173bfdac2859ed7c0
+SHA512: 6b95bc521a96b1dc0ad6f1e540e433cccfae07a5215f76ab364c47a3876ffd0c66bf16816ea87500923b7537fd5f9f35a7449b8ca6d22d52e5a1214401b0f582
+Description: 通过 Filza 脚本启动一个后台压缩进程，可启动后在多任务划掉 Filza 后台而不终止压缩，并在压缩结束后通过通知横幅提醒已结束，使用只需长按文件或文件夹然后点击使用脚本
+Name: FilzaScript Zip in Background
+Author: zhaonan
+SileoDepiction: https://invalidunit.github.io/sileodepiction/com.nan.filza-script/zip-in-background/js.json
+Icon: https://invalidunit.github.io/sileodepiction/default/image_fix.png
+
 Package: com.nan.ft
 Architecture: iphoneos-arm
 Version: 0.4.8
