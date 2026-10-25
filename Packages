@@ -1058,6 +1058,25 @@ SileoDepiction: https://invalidunit.github.io/sileodepiction/com.nan.bindfs/js.j
 Icon: https://invalidunit.github.io/sileodepiction/default/image_terminal.png
 
 Package: com.nan.bindfs
+Architecture: iphoneos-arm64
+Version: 0.7.1
+Section: System
+Maintainer: 无尽伤痛都锁进黑夜 & Grok & zhaonan
+Depends: firmware (>> 14.0), preferenceloader
+Conflicts: mobilesubstrate (= 999)
+Filename: ./debs/iphoneos-arm64/com.nan.bindfs_0.7.1_iphoneos-arm64_20261025-0601_23cb01533d3019d658eb1ae26ba1040f15fd72ed99a280cd55b2a273332cbd8c.deb
+Size: 42320
+MD5sum: d87ae6b2b72d3109495e24ec7dc0d0b2
+SHA1: 411f312a16edd428dba83f70044644888ef70e93
+SHA256: 23cb01533d3019d658eb1ae26ba1040f15fd72ed99a280cd55b2a273332cbd8c
+SHA512: 9673d37a49900e4a0d4f6deb9ae608896a9732a7646272100d86cc18165a3ddfec31dc7b17c5bc5977824cb9bd112234cf75b7aed77c21819b48fe531c683ef6
+Description: bindfs 挂载工具
+Name: mount_bindfs
+Author: 无尽伤痛都锁进黑夜 & Grok & zhaonan
+SileoDepiction: https://invalidunit.github.io/sileodepiction/com.nan.bindfs/js.json
+Icon: https://invalidunit.github.io/sileodepiction/default/image_terminal.png
+
+Package: com.nan.bindfs
 Architecture: iphoneos-arm64e
 Version: 0.3.6
 Section: Terminal_Support
@@ -1263,6 +1282,25 @@ SHA512: e33cb489e9559fc74ade2e45fbfb3b84d69c3598e7043901ed95094e0af7b50dc821433b
 Description: 以 bindfs 挂载文件夹的 cli 工具
 Name: mount_bindfs (Dopamine)
 Author: 无尽伤痛都锁进黑夜 & zhaonan
+SileoDepiction: https://invalidunit.github.io/sileodepiction/com.nan.bindfs/js.json
+Icon: https://invalidunit.github.io/sileodepiction/default/image_terminal.png
+
+Package: com.nan.bindfs
+Architecture: iphoneos-arm64e
+Version: 0.7.1
+Section: System
+Maintainer: 无尽伤痛都锁进黑夜 & Grok & zhaonan
+Depends: firmware (>> 14.0), preferenceloader
+Conflicts: mobilesubstrate (= 999)
+Filename: ./debs/iphoneos-arm64e/com.nan.bindfs_0.7.1_iphoneos-arm64e_20261025-0601_9daa7d4f21d358569d4b3c8c392f247bd3b67c5f02a4bf3cf9eb7813d3fafa8d.deb
+Size: 39212
+MD5sum: a4ef489a619cbb66856f4fcddcd97b38
+SHA1: 785a90b74cd636046122e71d404f80fed0c88043
+SHA256: 9daa7d4f21d358569d4b3c8c392f247bd3b67c5f02a4bf3cf9eb7813d3fafa8d
+SHA512: c4c888eeace162486d385c8baf4495c1f91f39690c6e25b66f157a1524c4c69187e51229f29aa6e1c47cb78293e547e1e35a242c6333149e9d3a10c1979fc11a
+Description: bindfs 挂载工具
+Name: mount_bindfs
+Author: 无尽伤痛都锁进黑夜 & Grok & zhaonan
 SileoDepiction: https://invalidunit.github.io/sileodepiction/com.nan.bindfs/js.json
 Icon: https://invalidunit.github.io/sileodepiction/default/image_terminal.png
 
