@@ -4576,6 +4576,24 @@ Author: zhaonan
 SileoDepiction: https://invalidunit.github.io/sileodepiction/com.nan.filza-script/zip-in-background/js.json
 Icon: https://invalidunit.github.io/sileodepiction/default/image_fix.png
 
+Package: com.nan.fix-filza-path
+Architecture: iphoneos-arm64e
+Version: 0.1.0
+Section: Addons
+Maintainer: zhaonan
+Depends: sed, plutil
+Filename: ./debs/iphoneos-arm64e/com.nan.fix-filza-path_0.1.0_iphoneos-arm64e_20261027-1028_9e5bfa91102ead2da53c5ae6aca512858f7aaa694cbc5f661257e21469090c28.deb
+Size: 1688
+MD5sum: 0010863c61d7724d97c3d04f0b74b7f5
+SHA1: c9749b63c73d18db78526678cd7e221f70f875df
+SHA256: 9e5bfa91102ead2da53c5ae6aca512858f7aaa694cbc5f661257e21469090c28
+SHA512: 456d5274b281df651a5edd29a1ddaa36c803808882907572666ff2b44a0fbb040583baaba9873e00b30ffe153a0602fbb6c1255e1c2d7c970483f3507d23662f
+Description: 缓解 RootHide 下 Filza 经常重启后路径对不上的问题
+Name: Fix Filza Path
+Author: zhaonan
+SileoDepiction: https://invalidunit.github.io/sileodepiction/com.nan.fix-filza-path/js.json
+Icon: https://invalidunit.github.io/sileodepiction/default/image_fix.png
+
 Package: com.nan.ft
 Architecture: iphoneos-arm
 Version: 0.4.8
