@@ -1077,6 +1077,25 @@ SileoDepiction: https://invalidunit.github.io/sileodepiction/com.nan.bindfs/js.j
 Icon: https://invalidunit.github.io/sileodepiction/default/image_terminal.png
 
 Package: com.nan.bindfs
+Architecture: iphoneos-arm64
+Version: 0.7.2
+Section: System
+Maintainer: 无尽伤痛都锁进黑夜 & Grok & zhaonan
+Depends: firmware (>> 14.0), preferenceloader
+Conflicts: mobilesubstrate (= 999)
+Filename: ./debs/iphoneos-arm64/com.nan.bindfs_0.7.2_iphoneos-arm64_20261028-1557_8c473b37262d0bcd8d22516378d183b952e0aa9440df1c61f4c1caa40c14ae3b.deb
+Size: 52088
+MD5sum: 1317f1494da1843306dc46f92e103212
+SHA1: 7a6466929a942d4e4e0c402be42f66acb7552e75
+SHA256: 8c473b37262d0bcd8d22516378d183b952e0aa9440df1c61f4c1caa40c14ae3b
+SHA512: 7e1ccef589fa2748b3fe57f58d19f5742d6c88608465c02fed701817550e40d6fe34ae7aea0006e30acf451d0ae41297c0771fe6e081f30b7ac6fff74ad796d6
+Description: bindfs 挂载工具
+Name: mount_bindfs
+Author: 无尽伤痛都锁进黑夜 & Grok & zhaonan
+SileoDepiction: https://invalidunit.github.io/sileodepiction/com.nan.bindfs/js.json
+Icon: https://invalidunit.github.io/sileodepiction/default/image_terminal.png
+
+Package: com.nan.bindfs
 Architecture: iphoneos-arm64e
 Version: 0.3.6
 Section: Terminal_Support
@@ -1298,6 +1317,25 @@ MD5sum: a4ef489a619cbb66856f4fcddcd97b38
 SHA1: 785a90b74cd636046122e71d404f80fed0c88043
 SHA256: 9daa7d4f21d358569d4b3c8c392f247bd3b67c5f02a4bf3cf9eb7813d3fafa8d
 SHA512: c4c888eeace162486d385c8baf4495c1f91f39690c6e25b66f157a1524c4c69187e51229f29aa6e1c47cb78293e547e1e35a242c6333149e9d3a10c1979fc11a
+Description: bindfs 挂载工具
+Name: mount_bindfs
+Author: 无尽伤痛都锁进黑夜 & Grok & zhaonan
+SileoDepiction: https://invalidunit.github.io/sileodepiction/com.nan.bindfs/js.json
+Icon: https://invalidunit.github.io/sileodepiction/default/image_terminal.png
+
+Package: com.nan.bindfs
+Architecture: iphoneos-arm64e
+Version: 0.7.2
+Section: System
+Maintainer: 无尽伤痛都锁进黑夜 & Grok & zhaonan
+Depends: firmware (>> 14.0), preferenceloader
+Conflicts: mobilesubstrate (= 999)
+Filename: ./debs/iphoneos-arm64e/com.nan.bindfs_0.7.2_iphoneos-arm64e_20261028-1557_315772c524040b26b0fb8308808134757a75b1a5857993fddac7e26d89c74ccd.deb
+Size: 49380
+MD5sum: b07420575950623246cb320ac74d5f92
+SHA1: f16ef9fa2dfc3a9d38fa581cbe770405a0d054a7
+SHA256: 315772c524040b26b0fb8308808134757a75b1a5857993fddac7e26d89c74ccd
+SHA512: 486e3dfd76f9b528bc33ae96319bf6869a49805257d98eb7854db36e8988acf51a205155ae31ccb8ca7655e7a5852a72ef96536a5a1e3ad3c796e0180af91b74
 Description: bindfs 挂载工具
 Name: mount_bindfs
 Author: 无尽伤痛都锁进黑夜 & Grok & zhaonan
